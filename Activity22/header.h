@@ -1,12 +1,8 @@
-//
-//  header.h
-//  Activity22
-//
-//  Created by Chatchapong Thuaypha on 10/23/24.
-//
+#ifndef HEADER_H
+#define HEADER_H
 
-#ifndef header_h
-#define header_h
+namespace NameExtract {
+    void extractNames(const char* fullName, char* firstName, char* lastName);
+}
 
-
-#endif /* header_h */
+#endif
